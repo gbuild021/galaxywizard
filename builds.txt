@@ -4,9 +4,9 @@ zip="https://github.com/gbuild021/galaxywizard/raw/main/plugin.program.galaxywiz
 
 name="Galaxy Build"
 version="1.0"
-url="https://www.dropbox.com/scl/fi/lgs4hskgdx3u3xzk0r0bx/GalaxyRel.zip?rlkey=68uyofo3m2vdw7z1p7r21fqt0&st=xe5gid44&dl=1"
+url="https://www.dropbox.com/scl/fi/be2yylvseo2zzcohjxlh2/GalaxyRel1.zip?rlkey=vgsav6l4rmp6j5zpkjjut7qz6&st=kplk1agd&dl=1"
 minor="http://"
-gui="https://www.dropbox.com/scl/fi/l9kr03rdes9kg452zz5d1/GalaxyRel_guisettings.zip?rlkey=cwv627qzfkakr2to2ypb75iki&st=d132xd0y&dl=1"
+gui="https://www.dropbox.com/scl/fi/dhhsbyccveq47uptyw5e5/GalaxyRel1_guisettings.zip?rlkey=bokovsemeygw7zp8zzdy4irsr&st=5nw9tqta&dl=1"
 kodi="21.0"
 theme="url.to.themes"
 icon="http://"
