@@ -1,6 +1,6 @@
 id="plugin.program.galaxywizard"
 version="1.0.0"
-zip="url.to.wizard"
+zip="https://github.com/gbuild021/galaxywizard/raw/main/plugin.program.galaxywizard.zip"
 
 name="Galaxy Build"
 version="1.0"
