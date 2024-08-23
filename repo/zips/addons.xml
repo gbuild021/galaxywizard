@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.program.galaxywizard" name="[COLOR aqua]Galaxy[/COLOR] Wizard" version="1.0.0" provider-name="Galaxy Build Team">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Galaxy Build wizard.</summary>
+        <description lang="en">Wizard used to install and maintain Galaxy Build. IYKYK.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+1.0.0
+ - Initial Release
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon><addon id="repository.galaxywizard" name="Galaxy Wizard Repository" version="1.0" provider-name="GalaxyDevTeam">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/gbuild021/galaxywizard/main/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gbuild021/galaxywizard/main/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gbuild021/galaxywizard/main/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Galaxy Wizard Repository</summary>
+        <description>This repository hosts the Galaxy Build Wizard.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
